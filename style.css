@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.myimg {
+    margin: 10px;
+    align-self: flex-start;
+    place-items: center; /* Center horizontally and vertically */
+}
+
+.my-button {
+    place-items: center; /* Center horizontally and vertically */
+    border: none; /* Remove borders */
+    background-color: rgb(241, 19, 178);
+    color: rgb(20, 13, 19); /* White text */
+    padding: 15px 32px; /* Add some padding */
+    display: inline-block; /* Make the container fit the content */
+    font-size: 16px; /* Increase the font size */
+    margin: 4px 2px; /* Add some margin */
+    border-radius: 12px; /* Round the corners */
+}
+
+/* styles.css */
+h1 {
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding inside the h1 */
+}
+
+.container {
+    place-items: center; /* Center horizontally and vertically */
+    height: 100%; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+}
+
+.my-paragraph {
+    place-items: center; /* Center horizontally and vertically */
+    width: 50%;
+    font-size: 18px; /* Font size */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height for better readability */
+    padding: 10px; /* Padding inside the paragraph */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text horizontally within the paragraph */
+}
